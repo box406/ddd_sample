@@ -1,0 +1,6 @@
+{
+    "require": {
+        "michelf/php-markdown": "1.5.0",
+        "potsky/pimp-my-log": "dev-master"
+    }
+}

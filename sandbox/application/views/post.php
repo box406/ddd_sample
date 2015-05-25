@@ -82,10 +82,10 @@
               <!-- /input-group -->
             </li>
             <li>
-            <a href="<?php echo site_url(); ?>"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+              <a href="index.html"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
             </li>
             <li>
-            <a href="<?php echo site_url(); ?>/blog/post"><i class="fa fa-pencil fa-fw"></i> 記事を書く</a>
+              <a href="index.html"><i class="fa fa-pencil fa-fw"></i> 記事を書く</a>
             </li>
 
           </ul>
@@ -105,142 +105,14 @@
         <div class="col-lg-9">          
           <div class="panel panel-default">
             <div class="panel-heading">
-              <i class="fa fa-clock-o fa-fw"></i> Timeline
+              <i class="fa fa-clock-o fa-fw"></i> Post 
             </div>
             <!-- /.panel-heading -->
             <div class="panel-body">
-              <ul class="timeline">
-                <li class="timeline-inverted">
-                  <div class="timeline-badge"><i class="fa fa-check"></i>
-                  </div>
-                  <div class="timeline-panel">
-                    <div class="timeline-heading">
-                      <h4 class="timeline-title">Lorem ipsum dolor</h4>
-                      <p><small class="text-muted"><i class="fa fa-clock-o"></i> 2015/12/13 12:12:11</small></p>
-                    </div>
-                    <div class="timeline-body">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero laboriosam dolor perspiciatis omnis exercitationem. Beatae, officia pariatur? Est cum veniam excepturi. Maiores praesentium, porro voluptas suscipit facere rem dicta, debitis.</p>
-                      <hr />
-                      <ul class="list-inline">
-                        <li><i class="fa fa-thumbs-o-up"></i> <a href="">いいね (10)</a></li>
-                        <li><i class="fa fa-comment"></i> <a href="">コメント (10)</a></li>
-                        <li><i class="glyphicon glyphicon-pushpin"></i> <a href="">ピンする</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </li>
-                <li class="timeline-inverted">
-                  <div class="timeline-badge warning"><i class="fa fa-credit-card"></i>
-                  </div>
-                  <div class="timeline-panel">
-                    <div class="timeline-heading">
-                      <h4 class="timeline-title">Lorem ipsum dolor</h4>
-                      <p><small class="text-muted"><i class="fa fa-clock-o"></i> 2015/12/13 12:12:11</small></p>
-                    </div>
-                    <div class="timeline-body">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dolorem quibusdam, tenetur commodi provident cumque magni voluptatem libero, quis rerum. Fugiat esse debitis optio, tempore. Animi officiis alias, officia repellendus.</p>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium maiores odit qui est tempora eos, nostrum provident explicabo dignissimos debitis vel! Adipisci eius voluptates, ad aut recusandae minus eaque facere.</p>
-                      <hr />
-                      <ul class="list-inline">
-                        <li><i class="fa fa-thumbs-o-up"></i> <a href="">いいね (10)</a></li>
-                        <li><i class="fa fa-comment"></i> <a href="">コメント (10)</a></li>
-                        <li><i class="glyphicon glyphicon-pushpin"></i> <a href="">ピンする</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </li>
-                <li class="timeline-inverted">
-                  <div class="timeline-badge danger"><i class="fa fa-bomb"></i>
-                  </div>
-                  <div class="timeline-panel">
-                    <div class="timeline-heading">
-                      <h4 class="timeline-title">Lorem ipsum dolor</h4>
-                      <p><small class="text-muted"><i class="fa fa-clock-o"></i> 2015/12/13 12:12:11</small></p>
-                    </div>
-                    <div class="timeline-body">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus numquam facilis enim eaque, tenetur nam id qui vel velit similique nihil iure molestias aliquam, voluptatem totam quaerat, magni commodi quisquam.</p>
-                      <hr />
-                      <ul class="list-inline">
-                        <li><i class="fa fa-thumbs-o-up"></i> <a href="">いいね (10)</a></li>
-                        <li><i class="fa fa-comment"></i> <a href="">コメント (10)</a></li>
-                        <li><i class="glyphicon glyphicon-pushpin"></i> <a href="">ピンする</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </li>
-                <li class="timeline-inverted">
-                  <div class="timeline-panel">
-                    <div class="timeline-heading">
-                      <h4 class="timeline-title">Lorem ipsum dolor</h4>
-                      <p><small class="text-muted"><i class="fa fa-clock-o"></i> 2015/12/13 12:12:11</small></p>
-                    </div>
-                    <div class="timeline-body">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates est quaerat asperiores sapiente, eligendi, nihil. Itaque quos, alias sapiente rerum quas odit! Aperiam officiis quidem delectus libero, omnis ut debitis!</p>
-                      <hr />
-                      <ul class="list-inline">
-                        <li><i class="fa fa-thumbs-o-up"></i> <a href="">いいね (10)</a></li>
-                        <li><i class="fa fa-comment"></i> <a href="">コメント (10)</a></li>
-                        <li><i class="glyphicon glyphicon-pushpin"></i> <a href="">ピンする</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </li>
-                <li class="timeline-inverted">
-                  <div class="timeline-badge info"><i class="fa fa-save"></i>
-                  </div>
-                  <div class="timeline-panel">
-                    <div class="timeline-heading">
-                      <h4 class="timeline-title">Lorem ipsum dolor</h4>
-                      <p><small class="text-muted"><i class="fa fa-clock-o"></i> 2015/12/13 12:12:11</small></p>
-                    </div>
-                    <div class="timeline-body">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis minus modi quam ipsum alias at est molestiae excepturi delectus nesciunt, quibusdam debitis amet, beatae consequuntur impedit nulla qui! Laborum, atque.</p>
-                      <hr />
-                      <ul class="list-inline">
-                        <li><i class="fa fa-thumbs-o-up"></i> <a href="">いいね (10)</a></li>
-                        <li><i class="fa fa-comment"></i> <a href="">コメント (10)</a></li>
-                        <li><i class="glyphicon glyphicon-pushpin"></i> <a href="">ピンする</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </li>
-                <li class="timeline-inverted">
-                  <div class="timeline-panel">
-                    <div class="timeline-heading">
-                      <h4 class="timeline-title">Lorem ipsum dolor</h4>
-                      <p><small class="text-muted"><i class="fa fa-clock-o"></i> 2015/12/13 12:12:11</small></p>
-                    </div>
-                    <div class="timeline-body">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi fuga odio quibusdam. Iure expedita, incidunt unde quis nam! Quod, quisquam. Officia quam qui adipisci quas consequuntur nostrum sequi. Consequuntur, commodi.</p>
-                      <hr />
-                      <ul class="list-inline">
-                        <li><i class="fa fa-thumbs-o-up"></i> <a href="">いいね (10)</a></li>
-                        <li><i class="fa fa-comment"></i> <a href="">コメント (10)</a></li>
-                        <li><i class="glyphicon glyphicon-pushpin"></i> <a href="">ピンする</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </li>
-                <li class="timeline-inverted">
-                  <div class="timeline-badge success"><i class="fa fa-graduation-cap"></i>
-                  </div>
-                  <div class="timeline-panel">
-                    <div class="timeline-heading">
-                      <h4 class="timeline-title">Lorem ipsum dolor</h4>
-                      <p><small class="text-muted"><i class="fa fa-clock-o"></i> 2015/12/13 12:12:11</small></p>
-                    </div>
-                    <div class="timeline-body">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt obcaecati, quaerat tempore officia voluptas debitis consectetur culpa amet, accusamus dolorum fugiat, animi dicta aperiam, enim incidunt quisquam maxime neque eaque.</p>
-                      <hr />
-                      <ul class="list-inline">
-                        <li><i class="fa fa-thumbs-o-up"></i> <a href="">いいね (10)</a></li>
-                        <li><i class="fa fa-comment"></i> <a href="">コメント (10)</a></li>
-                        <li><i class="glyphicon glyphicon-pushpin"></i> <a href="">ピンする</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </li>
-              </ul>
+              <textarea class="form-control" rows="35"></textarea>
+              <hr />
+              <button name="regist" class="btn btn-primary">Regist</button>
+              <button name="preview" class="btn btn-success">Preview</button>
             </div>
             <!-- /.panel-body -->
           </div>
